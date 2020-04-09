@@ -11,7 +11,7 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="">Home</Link>
+              <Link to="about">Home</Link>
             </li>
             <li>
               <Link to="links">Links</Link>
@@ -22,10 +22,10 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/links">
+          <Route path="links">
             <Links />
           </Route>
-          <Route path="/">
+          <Route path="about">
             <About />
           </Route>
           
