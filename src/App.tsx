@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 import "./App.css";
 import About from "./About/About";
 import Links from "./LinkExample/Links";
@@ -22,13 +22,14 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="links">
+          <Route path="/links">
             <Links />
           </Route>
-          <Route path="about">
+          <Route path="/about">
             <About />
           </Route>
-          
+          <Redirect from="/" to="/about" />
+
         </Switch>
       </div>
     </Router>
