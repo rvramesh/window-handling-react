@@ -2,7 +2,7 @@
   "name": "sample-window2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/window-handling-react/",
+  "homepage": "https://rvramesh.com/window-handling-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
