@@ -7,7 +7,7 @@ export default function () {
   const [windowOpen, setWindowOpen] = useState(false);
   useEffect(() => {
     const winFeatures =
-      "screenX=0,screenY=0,top=0,left=0,scrollbars";
+      "";
     const winName = "window";
     const winReplace = true;
     const winObj =
